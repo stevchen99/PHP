@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Mini-chat</title>
+<title>Mini-chat edit MAC</title>
 </head>
 <style>
 form {
@@ -29,6 +29,7 @@ try {
 } catch (Exception $e) {
     die('Erreur : ' . $e->getMessage());
 }
+
 
 // Récupération des 10 derniers messages
 $reponse = $bdd->query('SELECT pseudo, message FROM minichat ORDER BY idChat DESC LIMIT 0, 10');
