@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Mini-chat edit MAC</title>
+<title>Mini-chat edit MAC add Windosw</title>
 </head>
 <style>
 form {
